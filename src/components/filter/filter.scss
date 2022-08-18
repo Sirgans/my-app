@@ -1,0 +1,23 @@
+.filter__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 16px;
+  overflow: hidden;
+  width: 384px;
+  margin: 0;
+}
+
+.filter__item {
+  border: none;
+  background-color: inherit;
+  color: #c4c1cf;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: lighter;
+}
+
+.filter__item:hover,
+.filter__item:focus {
+  color: #fff;
+}

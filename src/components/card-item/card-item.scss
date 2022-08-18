@@ -1,0 +1,83 @@
+.card-item {
+  position: relative;
+}
+
+.card-item__content:hover,
+.card-item__content:focus {
+  box-shadow: -1px -1px 13px 7px rgba(255, 255, 255, 0.2);
+}
+
+.card-item__content {
+  display: flex;
+  flex-direction: column;
+  height: 421px;
+  justify-content: space-between;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 32px;
+  color: #fff;
+  background-position-x: 45%;
+  z-index: 0;
+}
+
+.card-item__wp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 32px;
+  margin-bottom: 24px;
+}
+
+.card-item__name {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card-item__filter {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #c4c1cf;
+}
+
+.card-item__composition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 80px;
+  height: 80px;
+  background-color: #0e0d13;
+  border-radius: 24px;
+  padding-top: 19px;
+  padding-bottom: 21px;
+  padding-right: 8px;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+.card-item__composition-perсent {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.card-item__composition-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+  color: #c4c1cf;
+}
+
+.main__bookmark {
+  top: -4px;
+}
+
+@media (min-width: 768px) {
+  .card-item {
+    height: 421px;
+    margin: 0;
+  }
+}

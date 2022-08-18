@@ -1,0 +1,25 @@
+.search-panel__button {
+  display: block;
+  width: 145px;
+  height: 48px;
+  border-radius: 32px;
+  background-color: #44414e;
+  border: none;
+  font-size: 18px;
+  line-height: 17px;
+  color: #c4c1cf;
+  font-weight: 500;
+  margin-right: 14px;
+}
+
+.search-panel__button:hover, 
+.search-panel__button:focus {
+  background-color: #353240;
+  color: #E9E6F2;
+}
+
+.search-panel__button:active {
+  background-color: #120E20;
+  color: #FF005C;
+  border: 1px solid #FF005C;
+}
